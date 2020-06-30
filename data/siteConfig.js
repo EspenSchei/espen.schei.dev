@@ -200,7 +200,7 @@ module.exports = {
     email: 'espen.schei@outlook.com',
   },
   siteUrl: 'https://espen.schei.dev',
-  pathPrefix: '/', // Note: it must *not* have a trailing slash.
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-171103478-1',
   background_color: '#ffffff',

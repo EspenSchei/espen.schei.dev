@@ -1,5 +1,5 @@
 {
-  "name": "Espen Schei CV",
+  "name": "espen.schei.dev",
   "private": true,
   "description": "Digital curriculum with GatsbyJS",
   "version": "0.0.1",
@@ -37,7 +37,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -t -d public -b master",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
