@@ -76,6 +76,7 @@ module.exports = {
     'REST',
     'OAuth 2.0',
     'GitLab',
+    'PostgreSQL',
     'Docker',
     'Kubernetes',
     '*Apache Kafka',
@@ -176,7 +177,7 @@ module.exports = {
       occupation: 'Technology journalist',
       description:
         "Freelance tech journalist for Norway's biggest computer magazine. The articles was published on some of Norways biggest online news sites.",
-      roles: ['Fullstack developer'],
+      roles: ['Technology journalist'],
       stack:
         'Technical writing, product photo, hardware, laptops, gadgets, benchmarking, review.',
     },
