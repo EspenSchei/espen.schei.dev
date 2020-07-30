@@ -13,7 +13,6 @@ import About from '../components/about'
 import Skills from '../components/skills'
 import Certifications from '../components/certifications/certifications'
 import Timeline from '../components/timeline'
-import Repositories from '../components/repositories'
 import Buzzwords from '../components/buzzwords/buzzwords'
 
 const Layout = loadable(() => import('../components/layout'))
@@ -98,8 +97,6 @@ const Home = ({ className, location }) => {
           </Row>
           <Separator />
           <Timeline />
-          <Separator />
-          {siteConfig.githubUsername && <Repositories />}
         </Container>
       </Wrapper>
     </Layout>

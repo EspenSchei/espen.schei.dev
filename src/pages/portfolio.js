@@ -7,6 +7,7 @@ import loadable from '@loadable/component'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
+import Repositories from '../components/repositories'
 
 const Layout = loadable(() => import('../components/layout'))
 
@@ -31,6 +32,12 @@ const JobCard = styled.a`
         transform: translateY(-5px);
       }
     `}
+`
+const Separator = styled.hr`
+  margin-top: 24px;
+  margin-bottom: 16px;
+  background-color: ${({ theme }) => theme.colors.fontColor};
+  opacity: 0.2;
 `
 
 const Portfolio = ({ className, location }) => {
@@ -65,6 +72,8 @@ const Portfolio = ({ className, location }) => {
             ))}
           </Row>
         </Container>
+        <Separator />
+        {siteConfig.githubUsername && <Repositories />}
       </Wrapper>
     </Layout>
   )
