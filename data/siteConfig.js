@@ -92,8 +92,8 @@ module.exports = {
       },
       duration: null,
       occupation: 'Senior Consultant',
-      description:
-        'Currently implementing an online Quiz-engine in Kotlin and React, building a microservice architecture with Apache Kafka and Kubernetes on AWS.',
+      description: `Currently working as a developer for the Norwegian Police ICT Services using technologies like Kotlin, Azure Functions and GitHub Actions.<br /><br />
+      Previousuly implemented an online Quiz-engine in Kotlin and React. We built a microservice architecture with Apache Kafka and Kubernetes on AWS.`,
       roles: ['Fullstack developer', 'Solution architect'],
       stack:
         'Kotlin, React, TypeScript, Spring Boot, Apache Kafka, Kubernetes, Amazon Web Services (AWS), GraphQL, GitLab (CI), Terraform, MongoDB, Serverless, DevOps.',
